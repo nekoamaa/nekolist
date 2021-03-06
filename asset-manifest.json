@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nekolist/static/css/main.768907a6.chunk.css",
+    "main.js": "/nekolist/static/js/main.aa7004ec.chunk.js",
+    "main.js.map": "/nekolist/static/js/main.aa7004ec.chunk.js.map",
+    "runtime-main.js": "/nekolist/static/js/runtime-main.de338587.js",
+    "runtime-main.js.map": "/nekolist/static/js/runtime-main.de338587.js.map",
+    "static/js/2.0a60ad7a.chunk.js": "/nekolist/static/js/2.0a60ad7a.chunk.js",
+    "static/js/2.0a60ad7a.chunk.js.map": "/nekolist/static/js/2.0a60ad7a.chunk.js.map",
+    "index.html": "/nekolist/index.html",
+    "static/css/main.768907a6.chunk.css.map": "/nekolist/static/css/main.768907a6.chunk.css.map",
+    "static/js/2.0a60ad7a.chunk.js.LICENSE.txt": "/nekolist/static/js/2.0a60ad7a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/nekolist/static/media/homeBanner.d0b5595e.jpg",
+    "static/media/nekolistLogo.8e5ff80d.png": "/nekolist/static/media/nekolistLogo.8e5ff80d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de338587.js",
+    "static/js/2.0a60ad7a.chunk.js",
+    "static/css/main.768907a6.chunk.css",
+    "static/js/main.aa7004ec.chunk.js"
+  ]
+}
