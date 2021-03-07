@@ -1,11 +1,12 @@
-.logo {
-    height: 40px;
-    width: 180px;
-}
-
-.navbar {
-    overflow: hidden;
-    width: 100%;
-    top: 0;
+nav {
     z-index: 9999;
+    .logo {
+        height: 40px;
+        width: 180px;
+    }
+    .navbar {
+        overflow: hidden;
+        width: 100%;
+        top: 0;
+    }
 }

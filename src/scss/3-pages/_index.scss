@@ -1,34 +1,42 @@
 .home-hero {
+    @include backgroundImage(url("../../images/homeBanner.jpg"));
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
     height: 100vh;
-    background-attachment: fixed;
-    background-image: url("../../images/homeBanner.jpg");
     padding: 13em 0;
     margin: auto;
-}
-
-.home-hero:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.home-hero p {
-    color: white;
-    font-size: 3em;
-    text-align: center;
-}
-
-.home-hero button {
-    color: white;
-    font-size: 2em;
-    text-align: center;
+    p {
+        font-size: 3.5em;
+        color: white;
+        text-align: center;
+        position: relative;
+    }
+    span {
+        font-size: 2em;
+        font-family: subway-berlin-sc, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    img {
+        height: 2em;
+        width: 10em;
+    }
+    button {
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        &:hover {
+            color: black;
+        }
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.2);
+    }
 }
