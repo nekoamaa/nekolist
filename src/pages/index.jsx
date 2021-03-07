@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../images/nekolistLogo.png"
-
+import logoBlack from "../images/nekolistLogoBlack.png"
 
 function Home() {
     return (
@@ -19,15 +19,15 @@ function Home() {
                     highscool taking it easy. In my free time I like to make stuff while
                     listening to weeb music. When I am not doing that, I am either watching
                     anime or reading manga.
-                </p>
+                    </p>
             </div>
 
             <div className="col-6 home-about-img">
                 <p>img</p>
             </div>
 
-            <div className="col-6 home-info-img">
-                <p>img</p>
+            <div className="col-6 home-info-logo">
+                <img src={logoBlack} alt="logo black"></img>
             </div>
 
             <div className="col-6 home-info">
@@ -36,10 +36,10 @@ function Home() {
                     I created NekoList to showcase all of the anime I have watched, all the
                     manga I have read, and some of my favorite charactesrs. This site was
                     inspired by AniList.
-                </p>
+                        </p>
             </div>
 
-            <div className="col-12 home-bg1">
+            <div className="col-12 home-anime-bg">
                 <p>img</p>
             </div>
 
@@ -48,7 +48,7 @@ function Home() {
                 <p>Click here to view my anime list!</p>
             </div>
 
-            <div className="col-12 home-bg2">
+            <div className="col-12 home-manga-bg">
                 <p>img</p>
             </div>
 
@@ -57,12 +57,19 @@ function Home() {
                 <p>Click here to view my manga list!</p>
             </div>
 
-            <div className="col-6 home-favorite">
-                <h1>Favorite</h1>
-                <p>Here are some of my favorite animes and manga</p>
+            <div className="col-12 home-favorite-bg">
+                <p>img</p>
             </div>
 
-            <div className="col-6 home-stats">
+            <div className="col-5 home-favorite">
+                <h1>Favorite</h1>
+                <p>Here are some of my favorite anime and manga</p>
+            </div>
+
+            <div className="col-2 vertical-line">
+            </div>
+
+            <div className="col-5 home-stats">
                 <h1>Stats</h1>
                 <p>Click to view my stats!</p>
             </div>

@@ -1,3 +1,7 @@
+.home-content {
+    text-align: center;
+}
+
 .home-hero {
     @include backgroundImage(url("../../images/homeBanner.jpg"));
     text-align: center;
@@ -39,4 +43,79 @@
         bottom: 0;
         background: rgba(0, 0, 0, 0.2);
     }
+}
+
+.home-about {
+    height: $contentInfoHeight;
+    p {
+        text-align: initial;
+    }
+}
+
+.home-about-img {
+    height: $contentInfoHeight;
+}
+
+.home-info {
+    height: $contentInfoHeight;
+    p {
+        text-align: initial;
+    }
+}
+
+.home-info-logo {
+    height: $contentInfoHeight;
+    img {
+        height: 10em;
+        width: 30em;
+    }
+}
+
+.home-anime-bg {
+    @include backgroundImage(url("../../images/homeAnime.jpg"));
+    height: $contentHeight;
+}
+
+.home-anime {
+    height: $contentHeight;
+}
+
+.home-manga-bg {
+    @include backgroundImage(url("../../images/homeManga.png"));
+    height: $contentHeight;
+}
+
+.home-manga {
+    height: $contentHeight;
+}
+
+.home-favorite-bg {
+    @include backgroundImage(url("../../images/homeFavorite.png"));
+    height: $contentHeight;
+}
+
+.home-favorite {
+    height: $contentHeight;
+}
+
+.vertical-line {
+    position: relative;
+    text-align: center;
+    &:after {
+        content: "";
+        margin-top: -10px;
+        height: 90%;
+        position: absolute;
+        z-index: -1;
+        top: 35px;
+        bottom: 0;
+        left: 50%;
+        margin-top: -10px;
+        border-left: 2px solid black;
+        transform: translate(-50%)
+    }
+}
+
+.home-stats {
+    height: $contentHeight;
 }
