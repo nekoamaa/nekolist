@@ -58,11 +58,13 @@ function Home() {
             </div>
 
             <div className="col-6 home-favorite">
-                <p>favorite</p>
+                <h1>Favorite</h1>
+                <p>Here are some of my favorite animes and manga</p>
             </div>
 
             <div className="col-6 home-stats">
-                <p>stats</p>
+                <h1>Stats</h1>
+                <p>Click to view my stats!</p>
             </div>
         </div>
     );
