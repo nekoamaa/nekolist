@@ -34,7 +34,7 @@ function Home() {
                 <h1>NekoList</h1>
                 <p>
                     I created NekoList to showcase all of the anime I have watched, all the
-                    manga I have read, and some of my favorite charactesr. This site was
+                    manga I have read, and some of my favorite charactesrs. This site was
                     inspired by AniList.
                 </p>
             </div>
