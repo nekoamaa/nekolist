@@ -1,4 +1,4 @@
-@mixin backgroundImage($backgroundImage) {
+@mixin background-image($backgroundImage) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -6,7 +6,7 @@
     background-image: $backgroundImage;
 }
 
-@mixin verticalLineHeight($top, $height) {
+@mixin vertical-line-height($top, $height) {
     &:after {
         content: "";
         height: $height;
@@ -16,6 +16,6 @@
         bottom: 0;
         left: 50%;
         border-left: 2px solid grey;
-        transform: translate(-50%)
+        transform: translate(-50%);
     }
 }

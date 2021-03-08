@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../images/nekolistLogo.png"
 
 function Navbar() {
@@ -11,11 +11,11 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link to="/" className="nav-item nav-link active">Home<span className="sr-only">(current)</span></Link>
-                        <Link to="/anime" className="nav-item nav-link">Anime</Link>
-                        <Link to="/manga" className="nav-item nav-link">Manga</Link>
-                        <Link to="/favorite" className="nav-item nav-link">Favorite</Link>
-                        <Link to="/stats" className="nav-item nav-link">Stats</Link>
+                        <NavLink to="/" exact activeClassName="active" className="nav-item nav-link">Home</NavLink>
+                        <NavLink to="/anime" exact activeClassName="active" className="nav-item nav-link">Anime</NavLink>
+                        <NavLink to="/manga" exact activeClassName="active" className="nav-item nav-link">Manga</NavLink>
+                        <NavLink to="/favorite" exact activeClassName="active" className="nav-item nav-link">Favorite</NavLink>
+                        <NavLink to="/stats" exact activeClassName="active" className="nav-item nav-link">Stats</NavLink>
                     </div>
                 </div>
             </nav>

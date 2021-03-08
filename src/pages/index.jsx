@@ -1,17 +1,17 @@
 /* import { Link } from "react-router-dom"; */
 import logo from "../images/nekolistLogo.png"
-import logoBlack from "../images/nekolistLogoBlack.png"
+/* import logoBlack from "../images/nekolistLogoBlack.png" */
 
 function Home() {
     return (
         <div className="row home-content">
             <div className="col-12 home-hero">
                 <p>Welcome to <br></br><img src={logo} alt="logo"></img></p>
-                <a href="placeholder"><button type="button" class="btn btn-primary">Get Started</button></a>
+                <a href="placeholder"><button type="button" class="btn btn-dark">Get Started</button></a>
             </div>
 
             <div className="col-6 home-about" id="#">
-                <div className="elevation">
+                <div className="elevation-beta">
                     <h1>About Me</h1>
                     <p>
                         Hello! Welcome to my site, NekoList, created by yours truly, nekoama.
@@ -29,19 +29,23 @@ function Home() {
             <div className="col-5 home-about-img"></div>
 
             <div className="col-5 home-info-logo">
-                <img src={logoBlack} alt="logo black"></img>
+                <img src={logo} alt="logo"></img>
             </div>
 
             <div className="col-1 vertical-line-info"></div>
 
             <div className="col-6 home-info">
-                <div className="elevation">
+                <div className="elevation-beta">
                     <h1>NekoList</h1>
                     <p>
                         I created NekoList to showcase all of the anime I have watched, all the
                         manga I have read, and some of my favorite charactesrs. This site was
                         inspired by AniList.
                     </p>
+                    <button type="button" class="btn btn-dark">Anime</button>
+                    <button type="button" class="btn btn-dark">Manga</button>
+                    <button type="button" class="btn btn-dark">Favorite</button>
+                    <button type="button" class="btn btn-dark">Stats</button>
                 </div>
             </div>
 

@@ -3,7 +3,7 @@
 }
 
 .home-hero {
-    @include backgroundImage(url("../../images/homeBanner.jpg"));
+    @include background-image(url("../../images/homeBanner.jpg"));
     margin-top: -200px;
     text-align: center;
     position: relative;
@@ -32,7 +32,7 @@
         text-align: center;
         position: relative;
         &:hover {
-            color: black;
+            color: white;
         }
     }
     &:before {
@@ -50,10 +50,12 @@
     height: $contentInfoHeight;
     padding: 20px 50px;
     h1 {
+        position: relative;
         text-align: initial;
         padding: 20px;
     }
     p {
+        position: relative;
         text-align: initial;
         padding: 0px 20px 0px;
     }
@@ -66,13 +68,20 @@
 .home-info {
     height: $contentInfoHeight;
     padding: 20px 50px;
+    text-align: right;
+    position: relative;
     h1 {
-        text-align: right;
         padding: 20px;
     }
     p {
-        text-align: right;
         padding: 0px 20px 0px;
+    }
+    button {
+        font-size: 1.15em;
+        margin-right: 20px;
+        &:hover {
+            color: grey;
+        }
     }
 }
 
@@ -86,7 +95,7 @@
 }
 
 .home-anime-bg {
-    @include backgroundImage(url("../../images/homeAnime.jpg"));
+    @include background-image(url("../../images/homeAnime.jpg"));
     height: $contentHeight;
 }
 
@@ -95,7 +104,7 @@
 }
 
 .home-manga-bg {
-    @include backgroundImage(url("../../images/homeManga.png"));
+    @include background-image(url("../../images/homeManga.png"));
     height: $contentHeight;
 }
 
@@ -104,7 +113,7 @@
 }
 
 .home-favorite-bg {
-    @include backgroundImage(url("../../images/homeFavorite.png"));
+    @include background-image(url("../../images/homeFavorite.png"));
     height: $contentHeight;
 }
 
@@ -115,14 +124,14 @@
 .vertical-line-info {
     position: relative;
     text-align: center;
-    @include verticalLineHeight(20px,
+    @include vertical-line-height(20px,
     83%);
 }
 
 .vertical-line-favorite {
     position: relative;
     text-align: center;
-    @include verticalLineHeight(45px,
+    @include vertical-line-height(45px,
     80%);
 }
 

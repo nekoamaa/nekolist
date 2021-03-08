@@ -7,16 +7,17 @@ body {
     color: white;
     background-color: #121212;
     scroll-behavior: smooth;
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
 }
 
-.elevation {
+
+/* .elevation {
     position: relative;
     display: inline-block;
     height: 95%;
     &:after {
+        content: "";
         position: absolute;
-        content: '';
         display: block;
         top: 0;
         left: 0;
@@ -24,4 +25,9 @@ body {
         bottom: 0;
         background-color: rgba(255, 255, 255, 0.05);
     }
+} */
+
+.elevation-beta {
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.05);
 }
