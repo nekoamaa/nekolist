@@ -4,12 +4,24 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    color: white;
+    background-color: #121212;
     scroll-behavior: smooth;
     font-family: 'Mulish', sans-serif;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.elevation {
+    position: relative;
+    display: inline-block;
+    height: 95%;
+    &:after {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
 }

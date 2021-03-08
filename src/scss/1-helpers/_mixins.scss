@@ -5,3 +5,17 @@
     background-attachment: fixed;
     background-image: $backgroundImage;
 }
+
+@mixin verticalLineHeight($top, $height) {
+    &:after {
+        content: "";
+        height: $height;
+        position: absolute;
+        z-index: -1;
+        top: $top;
+        bottom: 0;
+        left: 50%;
+        border-left: 2px solid grey;
+        transform: translate(-50%)
+    }
+}

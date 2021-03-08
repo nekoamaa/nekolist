@@ -4,6 +4,7 @@
 
 .home-hero {
     @include backgroundImage(url("../../images/homeBanner.jpg"));
+    margin-top: -200px;
     text-align: center;
     position: relative;
     height: 100vh;
@@ -47,8 +48,14 @@
 
 .home-about {
     height: $contentInfoHeight;
+    padding: 20px 50px;
+    h1 {
+        text-align: initial;
+        padding: 20px;
+    }
     p {
         text-align: initial;
+        padding: 0px 20px 0px;
     }
 }
 
@@ -58,8 +65,14 @@
 
 .home-info {
     height: $contentInfoHeight;
+    padding: 20px 50px;
+    h1 {
+        text-align: right;
+        padding: 20px;
+    }
     p {
-        text-align: initial;
+        text-align: right;
+        padding: 0px 20px 0px;
     }
 }
 
@@ -68,6 +81,7 @@
     img {
         height: 10em;
         width: 30em;
+        margin-top: 70px;
     }
 }
 
@@ -98,22 +112,18 @@
     height: $contentHeight;
 }
 
-.vertical-line {
+.vertical-line-info {
     position: relative;
     text-align: center;
-    &:after {
-        content: "";
-        margin-top: -10px;
-        height: 90%;
-        position: absolute;
-        z-index: -1;
-        top: 35px;
-        bottom: 0;
-        left: 50%;
-        margin-top: -10px;
-        border-left: 2px solid black;
-        transform: translate(-50%)
-    }
+    @include verticalLineHeight(20px,
+    83%);
+}
+
+.vertical-line-favorite {
+    position: relative;
+    text-align: center;
+    @include verticalLineHeight(45px,
+    80%);
 }
 
 .home-stats {
