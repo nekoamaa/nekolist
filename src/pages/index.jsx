@@ -1,17 +1,18 @@
 /* import { Link } from "react-router-dom"; */
 import logo from "../images/nekolistLogo.png"
 /* import logoBlack from "../images/nekolistLogoBlack.png" */
+import nekoLogo from "../images/nekoLogo.png"
 
 function Home() {
     return (
         <div className="row home-content">
             <div className="col-12 home-hero">
                 <p>Welcome to <br></br><img src={logo} alt="logo"></img></p>
-                <a href="placeholder"><button type="button" class="btn btn-dark">Get Started</button></a>
+                <a href="#section2"><button type="button" class="btn btn-dark">Get Started</button></a>
             </div>
 
-            <div className="col-6 home-about" id="#">
-                <div className="elevation-beta">
+            <div className="col-6 home-about">
+                <div className="home-about-info elevation-beta" id="#section2">
                     <h1>About Me</h1>
                     <p>
                         Hello! Welcome to my site, NekoList, created by yours truly, nekoama.
@@ -26,7 +27,7 @@ function Home() {
 
             <div className="col-1 vertical-line-info"></div>
 
-            <div className="col-5 home-about-img"></div>
+            <div className="col-5 home-about-image"><img src={nekoLogo} alt="neko logo"></img></div>
 
             <div className="col-5 home-info-logo">
                 <img src={logo} alt="logo"></img>
@@ -35,7 +36,7 @@ function Home() {
             <div className="col-1 vertical-line-info"></div>
 
             <div className="col-6 home-info">
-                <div className="elevation-beta">
+                <div className="home-nekolist-info elevation-beta">
                     <h1>NekoList</h1>
                     <p>
                         I created NekoList to showcase all of the anime I have watched, all the
