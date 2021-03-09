@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nekolist/static/css/main.0c0d942f.chunk.css",
-    "main.js": "/nekolist/static/js/main.41102d91.chunk.js",
-    "main.js.map": "/nekolist/static/js/main.41102d91.chunk.js.map",
+    "main.css": "/nekolist/static/css/main.33fc7243.chunk.css",
+    "main.js": "/nekolist/static/js/main.50456c64.chunk.js",
+    "main.js.map": "/nekolist/static/js/main.50456c64.chunk.js.map",
     "runtime-main.js": "/nekolist/static/js/runtime-main.de338587.js",
     "runtime-main.js.map": "/nekolist/static/js/runtime-main.de338587.js.map",
     "static/js/2.3193dd7c.chunk.js": "/nekolist/static/js/2.3193dd7c.chunk.js",
     "static/js/2.3193dd7c.chunk.js.map": "/nekolist/static/js/2.3193dd7c.chunk.js.map",
     "index.html": "/nekolist/index.html",
-    "static/css/main.0c0d942f.chunk.css.map": "/nekolist/static/css/main.0c0d942f.chunk.css.map",
+    "static/css/main.33fc7243.chunk.css.map": "/nekolist/static/css/main.33fc7243.chunk.css.map",
     "static/js/2.3193dd7c.chunk.js.LICENSE.txt": "/nekolist/static/js/2.3193dd7c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/nekolist/static/media/homeManga.64c2ab72.png",
     "static/media/nekoLogo.7195957f.png": "/nekolist/static/media/nekoLogo.7195957f.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.de338587.js",
     "static/js/2.3193dd7c.chunk.js",
-    "static/css/main.0c0d942f.chunk.css",
-    "static/js/main.41102d91.chunk.js"
+    "static/css/main.33fc7243.chunk.css",
+    "static/js/main.50456c64.chunk.js"
   ]
 }
