@@ -1,38 +1,24 @@
-.home-content {
-    text-align: center;
-}
-
-
 /* 1 */
 
 .home-hero {
     @include background-image(url("../../images/homeBanner.jpg"));
-    margin-top: -200px;
-    text-align: center;
-    position: relative;
     height: 100vh;
-    padding: 13em 0;
     margin: auto;
     p {
-        font-size: 3.5em;
+        font-size: 3em;
         color: white;
-        text-align: center;
         position: relative;
     }
-    span {
-        font-size: 2em;
-        font-family: subway-berlin-sc, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
     img {
-        height: 2em;
-        width: 10em;
+        height: 10em;
+        width: 30em;
+        margin-top: -25px;
+        margin-bottom: -10px;
+        position: relative;
     }
     button {
         color: white;
-        font-size: 2em;
-        text-align: center;
+        font-size: 1.4em;
         position: relative;
         &:hover {
             color: white;
@@ -45,74 +31,45 @@
         right: 0;
         left: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0, 0.3);
     }
 }
 
 
 /* 2 */
 
+#section2 {
+    position: absolute;
+    transform: translateY(-50vh);
+}
+
+.home-info {}
+
 .home-about {
-    height: $contentInfoHeight;
-    padding: 20px 50px;
-    h1 {
-        position: relative;
-        text-align: initial;
-        padding: 20px;
-    }
-    p {
-        position: relative;
-        text-align: initial;
-        padding: 0px 20px 0px;
-    }
-}
-
-.home-about-info {
-    border-left: 2px solid;
-}
-
-.home-about-image {
-    height: $contentInfoHeight;
-    img {
-        margin-top: 20px;
-        height: 83%;
-        width: 220px;
+    .home-about-info {}
+    .home-about-image {
+        img {
+            margin-top: 20px;
+            height: 83%;
+            width: 220px;
+        }
     }
 }
 
 
 /* 3 */
 
-.home-info {
-    height: $contentInfoHeight;
-    padding: 20px 50px;
-    text-align: right;
-    position: relative;
-    h1 {
-        padding: 20px;
-    }
-    p {
-        padding: 0px 20px 0px;
-    }
-    button {
-        font-size: 1.15em;
-        margin-right: 20px;
-        &:hover {
-            color: grey;
+.home-nekolist {
+    .home-nekolist-logo {}
+    .home-nekolist-info {
+        text-align: right;
+        button {
+            font-size: 1.15em;
+            margin-right: 20px;
+            &:hover {
+                color: grey;
+            }
         }
-    }
-}
-
-.home-nekolist-info {
-    border-right: 2px solid;
-}
-
-.home-info-logo {
-    height: $contentInfoHeight;
-    img {
-        height: 10em;
-        width: 30em;
-        margin-top: 70px;
     }
 }
 

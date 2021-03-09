@@ -13,13 +13,13 @@ function App() {
     return (
         <HashRouter>
             <Navbar />
-            <div className="container-fluid">
-                <Route path="/" exact component={Home} />
-                <Route path="/anime" exact component={Anime} />
-                <Route path="/manga" exact component={Manga} />
-                <Route path="/favorite" exact component={Favorite} />
-                <Route path="/stats" exact component={Stats} />
-            </div>
+            {/* <div className="container-fluid"> */}
+            <Route path="/" exact component={Home} />
+            <Route path="/anime" exact component={Anime} />
+            <Route path="/manga" exact component={Manga} />
+            <Route path="/favorite" exact component={Favorite} />
+            <Route path="/stats" exact component={Stats} />
+            {/* </div> */}
             <Footer />
         </HashRouter>
     );
